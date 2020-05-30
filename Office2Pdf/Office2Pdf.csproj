@@ -5,6 +5,9 @@
     <Authors>Stiven Fabiano da Câmara</Authors>
     <Company>BABEL Information Systems</Company>
     <Copyright>© 2020 BABEL Information Systems</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>oy2ontwbuf6xf7g6fllq25sczxgsrtyelcuusoaffdiuba</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
