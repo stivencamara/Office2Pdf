@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <Authors>Stiven Fabiano da Câmara</Authors>
+    <Company>BABEL Information Systems</Company>
+    <Copyright>© 2020 BABEL Information Systems</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetOffice.Core" Version="1.7.4.4" />
+    <PackageReference Include="NetOffice.Excel" Version="1.7.4.4" />
+    <PackageReference Include="NetOffice.PowerPoint" Version="1.7.4.4" />
+    <PackageReference Include="NetOffice.Word" Version="1.7.4.4" />
+  </ItemGroup>
+
+</Project>

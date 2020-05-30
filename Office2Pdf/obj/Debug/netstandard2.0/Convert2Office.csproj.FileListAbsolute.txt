@@ -1,0 +1,9 @@
+C:\Users\stiven.camara\source\repos\Convert2Office\bin\Debug\netstandard2.0\Convert2Office.deps.json
+C:\Users\stiven.camara\source\repos\Convert2Office\bin\Debug\netstandard2.0\Convert2Office.dll
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.0\Convert2Office.AssemblyInfoInputs.cache
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.0\Convert2Office.AssemblyInfo.cs
+C:\Users\stiven.camara\source\repos\Convert2Office\bin\Debug\netstandard2.0\Convert2Office.pdb
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.0\Convert2Office.dll
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.0\Convert2Office.pdb
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.0\Convert2Office.csproj.CoreCompileInputs.cache
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.0\Convert2Office.csprojAssemblyReference.cache

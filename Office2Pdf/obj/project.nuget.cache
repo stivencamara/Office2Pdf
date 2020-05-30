@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "k5NSkCsMQFQQndi5zZ8qIR9zGVsduTrfflTgi5AgPxLjz4B49AIpnYuIgd/taqaeum36U5lUfs3xvlPGZj0UMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stiven.camara\\.nuget\\packages\\netoffice.core\\1.7.4.4\\netoffice.core.1.7.4.4.nupkg.sha512",
+    "C:\\Users\\stiven.camara\\.nuget\\packages\\netoffice.excel\\1.7.4.4\\netoffice.excel.1.7.4.4.nupkg.sha512",
+    "C:\\Users\\stiven.camara\\.nuget\\packages\\netoffice.powerpoint\\1.7.4.4\\netoffice.powerpoint.1.7.4.4.nupkg.sha512",
+    "C:\\Users\\stiven.camara\\.nuget\\packages\\netoffice.word\\1.7.4.4\\netoffice.word.1.7.4.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Core 1.7.4.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Core",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Excel 1.7.4.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Excel",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.PowerPoint 1.7.4.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.PowerPoint",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Word 1.7.4.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Word",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

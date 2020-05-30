@@ -1,0 +1,16 @@
+C:\Users\stiven.camara\source\repos\Convert2Office\bin\Debug\netstandard2.1\Office2Pdf.deps.json
+C:\Users\stiven.camara\source\repos\Convert2Office\bin\Debug\netstandard2.1\Office2Pdf.dll
+C:\Users\stiven.camara\source\repos\Convert2Office\bin\Debug\netstandard2.1\Office2Pdf.pdb
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.1\Office2Pdf.AssemblyInfoInputs.cache
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.1\Office2Pdf.AssemblyInfo.cs
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.1\Office2Pdf.csproj.CoreCompileInputs.cache
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.1\Office2Pdf.dll
+C:\Users\stiven.camara\source\repos\Convert2Office\obj\Debug\netstandard2.1\Office2Pdf.pdb
+C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.deps.json
+C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.dll
+C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.pdb
+C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.AssemblyInfoInputs.cache
+C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.AssemblyInfo.cs
+C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.csproj.CoreCompileInputs.cache
+C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.dll
+C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.pdb

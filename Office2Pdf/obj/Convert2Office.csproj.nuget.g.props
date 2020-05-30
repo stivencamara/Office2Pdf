@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\stiven.camara\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.6.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.1' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNetOffice_Core Condition=" '$(PkgNetOffice_Core)' == '' ">C:\Users\stiven.camara\.nuget\packages\netoffice.core\1.7.4.4</PkgNetOffice_Core>
+    <PkgNetOffice_Word Condition=" '$(PkgNetOffice_Word)' == '' ">C:\Users\stiven.camara\.nuget\packages\netoffice.word\1.7.4.4</PkgNetOffice_Word>
+    <PkgNetOffice_PowerPoint Condition=" '$(PkgNetOffice_PowerPoint)' == '' ">C:\Users\stiven.camara\.nuget\packages\netoffice.powerpoint\1.7.4.4</PkgNetOffice_PowerPoint>
+    <PkgNetOffice_Excel Condition=" '$(PkgNetOffice_Excel)' == '' ">C:\Users\stiven.camara\.nuget\packages\netoffice.excel\1.7.4.4</PkgNetOffice_Excel>
+  </PropertyGroup>
+</Project>
