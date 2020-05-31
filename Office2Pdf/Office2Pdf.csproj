@@ -4,10 +4,12 @@
     <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <Authors>Stiven Fabiano da Câmara</Authors>
     <Company>BABEL Information Systems</Company>
-    <Copyright>© 2020 BABEL Information Systems</Copyright>
+    <Copyright>© 2020</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageLicenseExpression>oy2ontwbuf6xf7g6fllq25sczxgsrtyelcuusoaffdiuba</PackageLicenseExpression>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <Description>Convert Office documents to Pdf.</Description>
+    <PackageTags>office, convert, export, saveas, pdf, doc, docx, xls, xlsx, ppt, pptx</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

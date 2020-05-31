@@ -13,7 +13,8 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("BABEL Information Systems")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("© 2020 BABEL Information Systems")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("© 2020")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Convert Office documents to Pdf.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Office2Pdf")]
