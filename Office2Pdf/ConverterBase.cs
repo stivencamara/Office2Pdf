@@ -2,7 +2,7 @@
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace Convert2Office
+namespace Office2Pdf
 {
     internal abstract class ConverterBase<T> : IConverter, IDisposable
     {

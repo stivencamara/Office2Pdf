@@ -3,7 +3,7 @@ using System;
 using System.IO;
 using System.Threading;
 
-namespace Convert2Office.Tests
+namespace Office2Pdf.Tests
 {
     [TestClass]
     public class PowerpointConverterTest

@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 https://github.com/skmp/node-msoffice-pdf/blob/master/office.cs
 */
 
-namespace Convert2Office.Converters
+namespace Office2Pdf.Converters
 {
     internal class PowerpointConverter : ConverterBase<Application>
     {

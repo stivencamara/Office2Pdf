@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace Convert2Office.Converters
+namespace Office2Pdf.Converters
 {
     internal class ExcelConverter : ConverterBase<Application>
     {

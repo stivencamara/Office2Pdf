@@ -1,9 +1,9 @@
-﻿using Convert2Office.Converters;
+﻿using Office2Pdf.Converters;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Convert2Office
+namespace Office2Pdf
 {
     public class DocumentConverterFactory : IDocumentConverterFactory
     {

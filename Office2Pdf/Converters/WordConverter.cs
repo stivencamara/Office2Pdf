@@ -3,7 +3,7 @@ using NetOffice.WordApi;
 using NetOffice.WordApi.Enums;
 using System;
 
-namespace Convert2Office.Converters
+namespace Office2Pdf.Converters
 {
     internal class WordConverter : ConverterBase<Application>
     {

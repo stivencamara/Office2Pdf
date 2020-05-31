@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Convert2Office
+namespace Office2Pdf
 {
     public interface IConverter
     {
