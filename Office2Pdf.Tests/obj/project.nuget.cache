@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2ouJc09Tqbi8fZKuKhWN/W1KRZiJW/GNYnfffrXIit7rtUw5Oc0Q4c7mKvtBJd6N7gPa84QiELa0NpchxSigZg==",
+  "dgSpecHash": "tAqvXAo58ubjn4Fsel8ivB5FPZYRaTZ5b6fXZ2XENdz+9Ed1nNgLd2WNct6moGplHb3j2peNY/IDjcACkTAJ4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
   "expectedPackageFiles": [
@@ -95,7 +95,7 @@
     "C:\\Users\\stiven.camara\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\stiven.camara\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\stiven.camara\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\stiven.camara\\.nuget\\packages\\office2pdf\\1.0.0\\office2pdf.1.0.0.nupkg.sha512"
+    "C:\\Users\\stiven.camara\\.nuget\\packages\\office2pdf\\1.0.1\\office2pdf.1.0.1.nupkg.sha512"
   ],
   "logs": [
     {
