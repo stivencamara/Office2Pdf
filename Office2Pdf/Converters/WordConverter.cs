@@ -8,7 +8,7 @@ namespace Office2Pdf.Converters
     internal class WordConverter : ConverterBase<Application>
     {
         private static object unknownType = Type.Missing;
-        public WordConverter() : 
+        public WordConverter() :
             base(new Application())
         {
 
@@ -54,7 +54,7 @@ namespace Office2Pdf.Converters
                 if (Application != null)
                 {
                     if (Application.Documents.Count > 0)
-                        Application.Documents.Close(unknownType, unknownType, unknownType);
+                        Application.Documents.Close(WdSaveOptions.wdDoNotSaveChanges, WdOriginalFormat.wdWordDocument);
                 }
                 Application.Quit(unknownType, unknownType, unknownType);
             }
@@ -64,8 +64,8 @@ namespace Office2Pdf.Converters
         {
             object fileFormat = WdSaveFormat.wdFormatPDF;
             object fileName = targetPath;
-            activeDocument.SaveAs(fileName, fileFormat, unknownType, unknownType, unknownType, 
-                unknownType, unknownType, unknownType, unknownType, unknownType, unknownType, 
+            activeDocument.SaveAs(fileName, fileFormat, unknownType, unknownType, unknownType,
+                unknownType, unknownType, unknownType, unknownType, unknownType, unknownType,
                 unknownType, unknownType, unknownType, unknownType, unknownType);
         }
     }

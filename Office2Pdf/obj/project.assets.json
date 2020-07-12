@@ -176,26 +176,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stiven.camara\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\stiven.camara\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+      "projectUniqueName": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
       "projectName": "Office2Pdf",
-      "projectPath": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+      "projectPath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
       "packagesPath": "C:\\Users\\stiven.camara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf\\obj\\",
+      "outputPath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\stiven.camara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -250,7 +245,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   },

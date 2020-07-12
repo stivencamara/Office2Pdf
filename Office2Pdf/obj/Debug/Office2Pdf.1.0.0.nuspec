@@ -7,7 +7,7 @@
     <owners>Stiven Fabiano da Câmara</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Convert Office documents to Pdf.</description>
-    <copyright>© 2020 Todos direitos reservados</copyright>
+    <copyright>© 2020</copyright>
     <tags>office, convert, export, saveas, pdf, doc, docx, xls, xlsx, ppt, pptx</tags>
     <dependencies>
       <group targetFramework=".NETStandard2.1">
@@ -19,6 +19,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\stiven.camara\source\repos\stivencamara\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.dll" target="lib\netstandard2.1\Office2Pdf.dll" />
+    <file src="C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.dll" target="lib\netstandard2.1\Office2Pdf.dll" />
   </files>
 </package>

@@ -5899,25 +5899,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stiven.camara\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\stiven.camara\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
       "projectName": "Office2Pdf.Tests",
-      "projectPath": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
+      "projectPath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
       "packagesPath": "C:\\Users\\stiven.camara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf.Tests\\obj\\",
+      "outputPath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf.Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\stiven.camara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5929,8 +5924,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj": {
-              "projectPath": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj"
+            "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj": {
+              "projectPath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj"
             }
           }
         }
@@ -5971,18 +5966,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   },

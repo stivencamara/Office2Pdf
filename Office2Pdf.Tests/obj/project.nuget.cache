@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i+haMru7U+vANpglmoXPfW2YGSViK2Q71TlV2ba3DUjOl8WLWgB7143G7Y2z5u4MBpSY6NoMeuMZl/ZgDqJNmQ==",
+  "dgSpecHash": "2ouJc09Tqbi8fZKuKhWN/W1KRZiJW/GNYnfffrXIit7rtUw5Oc0Q4c7mKvtBJd6N7gPa84QiELa0NpchxSigZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stiven.camara\\source\\repos\\stivencamara\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
+  "projectFilePath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stiven.camara\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\stiven.camara\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
@@ -95,7 +95,7 @@
     "C:\\Users\\stiven.camara\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\stiven.camara\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\stiven.camara\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\stiven.camara\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\stiven.camara\\.nuget\\packages\\office2pdf\\1.0.0\\office2pdf.1.0.0.nupkg.sha512"
   ],
   "logs": [
     {
