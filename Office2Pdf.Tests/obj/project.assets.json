@@ -1684,7 +1684,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Office2Pdf/1.0.1": {
+      "Office2Pdf/1.0.3": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
@@ -5883,7 +5883,7 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Office2Pdf/1.0.1": {
+    "Office2Pdf/1.0.3": {
       "type": "project",
       "path": "../Office2Pdf/Office2Pdf.csproj",
       "msbuildProject": "../Office2Pdf/Office2Pdf.csproj"
@@ -5894,7 +5894,7 @@
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
-      "Office2Pdf >= 1.0.1",
+      "Office2Pdf >= 1.0.3",
       "coverlet.collector >= 1.2.0"
     ]
   },
