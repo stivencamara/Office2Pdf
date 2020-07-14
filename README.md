@@ -2,7 +2,7 @@
 Convert Office documents to Pdf
 
 # Example
-The following is an example that will convert docx to pdf
+Convert **docx** to pdf
 
 ```C#
             IConverter conveter = new DocumentConverterFactory().GetConverter(ContentType.DOCX);
@@ -13,7 +13,7 @@ The following is an example that will convert docx to pdf
             conveter.Convert(sourcePath, targetPath, false);
 ```
 
-The following is an example that will convert xls to pdf
+Convert **xls** to pdf
 
 ```C#
             IConverter conveter = new DocumentConverterFactory().GetConverter(ContentType.XLS);
@@ -24,7 +24,7 @@ The following is an example that will convert xls to pdf
             conveter.Convert(sourcePath, targetPath, false);
 ```
 
-The following is an example that will convert xls to pdf
+Convert **ppt** to pdf
 
 ```C#
             IConverter conveter = new DocumentConverterFactory().GetConverter(ContentType.PPT);
