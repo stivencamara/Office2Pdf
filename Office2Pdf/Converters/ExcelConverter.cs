@@ -2,9 +2,6 @@
 using NetOffice.ExcelApi.Enums;
 using NetOffice.OfficeApi.Enums;
 using System;
-using System.Diagnostics;
-using System.Reflection;
-using System.Runtime.InteropServices;
 
 namespace Office2Pdf.Converters
 {
@@ -49,24 +46,7 @@ namespace Office2Pdf.Converters
                 }
                 Application.Quit();
                 Application.Dispose();
-                //ForceQuit(workbooks, workbook);
             }
         }
-
-        //[DllImport("user32.dll")]
-        //private static extern uint GetWindowThreadProcessId(IntPtr hWnd, out uint lpdwProcessId);
-
-        //private void ForceQuit(Workbooks workbooks, Workbook workbook)
-        //{
-        //    int hWnd = Application.Application.Hwnd;
-        //    uint processID;
-
-        //    GetWindowThreadProcessId((IntPtr)hWnd, out processID);
-        //    Process.GetProcessById((int)processID).Kill();
-
-        //    workbooks = null;
-        //    workbook = null;
-            
-        //}
     }
 }

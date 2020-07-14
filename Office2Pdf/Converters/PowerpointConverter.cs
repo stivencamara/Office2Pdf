@@ -2,8 +2,6 @@
 using NetOffice.PowerPointApi;
 using NetOffice.PowerPointApi.Enums;
 using System;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 /*
 https://github.com/skmp/node-msoffice-pdf/blob/master/office.cs
 */
