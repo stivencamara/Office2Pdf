@@ -8,7 +8,7 @@ Convert **docx** to pdf
             IConverter conveter = new DocumentConverterFactory().GetConverter(ContentType.DOCX);
 
             var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.docx");
-            var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.pdf");
+            var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", "Testdocx.pdf");
 
             conveter.Convert(sourcePath, targetPath, false);
 ```
