@@ -11,6 +11,8 @@
     <Description>Convert Office documents to Pdf.</Description>
     <PackageTags>office, convert, export, saveas, pdf, doc, docx, xls, xlsx, ppt, pptx</PackageTags>
     <Version>1.0.3</Version>
+    <RepositoryUrl>https://github.com/stivencamara/Office2Pdf</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
