@@ -16,10 +16,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NetOffice.Core" Version="1.7.4.4" />
-    <PackageReference Include="NetOffice.Excel" Version="1.7.4.4" />
-    <PackageReference Include="NetOffice.PowerPoint" Version="1.7.4.4" />
-    <PackageReference Include="NetOffice.Word" Version="1.7.4.4" />
+    <PackageReference Include="NetOfficeFw.Core" Version="1.7.4.11" />
+    <PackageReference Include="NetOfficeFw.Excel" Version="1.7.4.11" />
+    <PackageReference Include="NetOfficeFw.PowerPoint" Version="1.7.4.11" />
+    <PackageReference Include="NetOfficeFw.Word" Version="1.7.4.11" />
   </ItemGroup>
 
 </Project>
