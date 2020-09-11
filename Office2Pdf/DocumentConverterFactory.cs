@@ -1,7 +1,4 @@
 ﻿using Office2Pdf.Converters;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Office2Pdf
 {

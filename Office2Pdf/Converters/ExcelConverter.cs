@@ -22,14 +22,11 @@ namespace Office2Pdf.Converters
             Application.AutomationSecurity = MsoAutomationSecurity.msoAutomationSecurityForceDisable;
             Application.AskToUpdateLinks = false;
 
-            Workbooks workbooks = null;
-            Workbook workbook = null;
-
             try
             {
                 object unknownType = Type.Missing;
-                workbooks = Application.Workbooks;
-                workbook = workbooks.Open(sourcePath);
+                var workbooks = Application.Workbooks;
+                var workbook = workbooks.Open(sourcePath);
 
                 workbook.ExportAsFixedFormat(XlFixedFormatType.xlTypePDF, targetPath);
                 workbook.Close(false, unknownType, unknownType);

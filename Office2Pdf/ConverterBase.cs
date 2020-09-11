@@ -6,8 +6,9 @@ namespace Office2Pdf
 {
     internal abstract class ConverterBase<T> : IConverter, IDisposable
     {
-        private T application;
-        public ConverterBase(T application)
+        private readonly T application;
+
+        private protected ConverterBase(T application)
         {
             this.application = application;
         }
@@ -54,7 +55,7 @@ namespace Office2Pdf
 
         protected ContentType GetFileExtension(string sourcePath)
         {
-            string extension = Path.GetExtension(sourcePath);
+            var extension = Path.GetExtension(sourcePath);
 
             extension = extension.Replace(".", string.Empty);
             return (ContentType)Enum.Parse(typeof(ContentType), extension, true);

@@ -11,7 +11,7 @@ namespace Office2Pdf.Tests
         [TestMethod]
         public void Should_Convert_Ppt()
         {
-            IConverter conveter = new DocumentConverterFactory().GetConverter(ContentType.PPT);
+            var conveter = new DocumentConverterFactory().GetConverter(ContentType.PPT);
 
             var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.ppt");
             var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", "Testppt.pdf");
@@ -24,12 +24,12 @@ namespace Office2Pdf.Tests
         [TestMethod]
         public void Should_Convert_Pptx()
         {
-            IConverter conveter = new DocumentConverterFactory().GetConverter(ContentType.PPTX);
+            var converter = new DocumentConverterFactory().GetConverter(ContentType.PPTX);
 
             var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.pptx");
             var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", "Testpptx.pdf");
 
-            conveter.Convert(sourcePath, targetPath, false);
+            converter.Convert(sourcePath, targetPath, false);
 
             Assert.IsTrue(true);
         }
@@ -38,13 +38,14 @@ namespace Office2Pdf.Tests
         public void Should_Convert_MoreTimes()
         {
             var index = 0;
-            while (index < 50) {
-                IConverter conveter = new DocumentConverterFactory().GetConverter(ContentType.PPT);
+            while (index < 50) 
+            {
+                var converter = new DocumentConverterFactory().GetConverter(ContentType.PPT);
 
                 var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.ppt");
                 var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", $"Testdoc_{index}.pdf");
 
-                conveter.Convert(sourcePath, targetPath, false);
+                converter.Convert(sourcePath, targetPath, false);
 
                 Thread.Sleep(200);
 

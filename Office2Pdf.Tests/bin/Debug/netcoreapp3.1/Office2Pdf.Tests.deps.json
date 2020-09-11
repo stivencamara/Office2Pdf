@@ -11,7 +11,7 @@
           "MSTest.TestAdapter": "2.1.0",
           "MSTest.TestFramework": "2.1.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
-          "Office2Pdf": "1.0.0",
+          "Office2Pdf": "1.0.3",
           "coverlet.collector": "1.2.0"
         },
         "runtime": {
@@ -1120,7 +1120,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "Office2Pdf/1.0.0": {
+      "Office2Pdf/1.0.3": {
         "dependencies": {
           "NetOffice.Core": "1.7.4.4",
           "NetOffice.Excel": "1.7.4.4",
@@ -1776,7 +1776,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "Office2Pdf/1.0.0": {
+    "Office2Pdf/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
