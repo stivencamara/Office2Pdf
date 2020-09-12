@@ -34,3 +34,7 @@ Convert **ppt** to pdf
 
             conveter.Convert(sourcePath, targetPath, false);
 ```
+
+#Future problems with interoperability
+
+https://www.ryadel.com/en/office-interop-dcom-config-windows-server-iis-word-excel-access-asp-net-c-sharp/
