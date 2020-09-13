@@ -35,6 +35,6 @@ Convert **ppt** to pdf
             conveter.Convert(sourcePath, targetPath, false);
 ```
 
-# Future problems with interoperability (ASP.Net IIS)
+# How to setup DCOM Configuration Settings to use Office Interop Word, Excel, and Access with ASP.NET C# on a IIS Windows Server machine
 
 https://www.ryadel.com/en/office-interop-dcom-config-windows-server-iis-word-excel-access-asp-net-c-sharp/
