@@ -21,10 +21,13 @@ namespace Office2Pdf.Converters
             {
                 Documents documents = Application.Documents;
 
-                documents.Open(sourcePath, unknownType, true, unknownType, unknownType, unknownType,
+                var document = documents.Open(sourcePath, unknownType, true, unknownType, unknownType, unknownType,
                     unknownType, unknownType, unknownType, unknownType, unknownType, unknownType,
                     unknownType, unknownType, unknownType, unknownType);
 
+                //Workaround for Bug: “Not available for reading” error on opening a document
+                if (Application.Version == "15.0")
+                    document.ActiveWindow.View.Type = WdViewType.wdPrintView;
 
                 Application.Application.Visible = false;
                 Application.WindowState = WdWindowState.wdWindowStateMinimize;
