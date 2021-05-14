@@ -1,0 +1,9 @@
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\bin\Release\netstandard2.1\Office2Pdf.deps.json
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\bin\Release\netstandard2.1\Office2Pdf.dll
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\bin\Release\netstandard2.1\Office2Pdf.pdb
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Release\netstandard2.1\Office2Pdf.AssemblyInfoInputs.cache
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Release\netstandard2.1\Office2Pdf.AssemblyInfo.cs
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Release\netstandard2.1\Office2Pdf.csproj.CoreCompileInputs.cache
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Release\netstandard2.1\Office2Pdf.dll
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Release\netstandard2.1\Office2Pdf.pdb
+C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Release\netstandard2.1\Office2Pdf.csprojAssemblyReference.cache

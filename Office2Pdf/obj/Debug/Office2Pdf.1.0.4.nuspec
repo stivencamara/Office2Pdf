@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Office2Pdf</id>
+    <version>1.0.4</version>
+    <authors>Stiven Fabiano da Câmara</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Convert Office documents to Pdf.</description>
+    <copyright>© 2020</copyright>
+    <tags>office, convert, export, saveas, pdf, doc, docx, xls, xlsx, ppt, pptx</tags>
+    <repository type="Github" url="https://github.com/stivencamara/Office2Pdf" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="NetOfficeFw.Core" version="1.7.4.11" exclude="Build,Analyzers" />
+        <dependency id="NetOfficeFw.Excel" version="1.7.4.11" exclude="Build,Analyzers" />
+        <dependency id="NetOfficeFw.PowerPoint" version="1.7.4.11" exclude="Build,Analyzers" />
+        <dependency id="NetOfficeFw.Word" version="1.7.4.11" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.dll" target="lib\netstandard2.1\Office2Pdf.dll" />
+  </files>
+</package>

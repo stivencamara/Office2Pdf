@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Office2Pdf/1.0.3": {
+      "Office2Pdf/1.0.4": {
         "dependencies": {
           "NetOfficeFw.Core": "1.7.4.11",
           "NetOfficeFw.Excel": "1.7.4.11",
@@ -70,7 +70,7 @@
     }
   },
   "libraries": {
-    "Office2Pdf/1.0.3": {
+    "Office2Pdf/1.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
