@@ -15,6 +15,7 @@ namespace Office2Pdf.Converters
         {
 
         }
+        
         public override void OnConvert(string sourcePath, string targetPath, bool isPdfA)
         {
             object unknownType = Type.Missing;
@@ -36,13 +37,14 @@ namespace Office2Pdf.Converters
                     PpPrintOutputType.ppPrintOutputSlides, MsoTriState.msoFalse, printRange, PpPrintRangeType.ppPrintAll,
                     unknownType, true, true, true, true, isPdfA, unknownType);
             }
-            catch(Exception e) {
-
+            catch(Exception e) 
+            {
                 try
                 {
                     presentation.SaveAs(targetPath, PpFixedFormatType.ppFixedFormatTypePDF, MsoTriState.msoCTrue);
                 }
-                catch { }
+                catch 
+                { }
             }
             finally
             {
