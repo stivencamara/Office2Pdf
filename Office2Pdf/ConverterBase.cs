@@ -17,7 +17,6 @@ namespace Office2Pdf
 
         public void Convert(string sourcePath, string targetPath, bool isPdfA)
         {
-
             if (string.IsNullOrEmpty(sourcePath))
                 throw new Exception("The source path is required");
 
@@ -42,7 +41,6 @@ namespace Office2Pdf
             catch
             {
                 obj = default(T);
-
             }
             finally
             {
