@@ -37,12 +37,13 @@ Convert **ppt** to pdf
 
 # How to setup DCOM Configuration Settings to use Office Interop Word, Excel, and Access with ASP.NET C# on a IIS Windows Server machine
 
-**0x800A03EC Cannot access the file**
+#### 0x800A03EC Cannot access the file
+
 The 0x800A03EC Cannot access the file is arguably the worst error you can experience, as the given error message is completely misleading. To fix that, you have to the following:
 
 Create the following new folders on your Windows Server + IIS machine:
-C:\Windows\SysWOW64\config\systemprofile\Desktop (for 64-bit Servers only)
-C:\Windows\System32\config\systemprofile\Desktop (for both 32-bit and 64-bit Servers)
-Set Full control permissions for these Desktop folders for the Application Pool user (IIS AppPool\DefaultAppPool if you’re using the ApplicationPoolIdentity dynamic account).
+* C:\Windows\SysWOW64\config\systemprofile\Desktop (for 64-bit Servers only)
+* C:\Windows\System32\config\systemprofile\Desktop (for both 32-bit and 64-bit Servers)
+* Set Full control permissions for these Desktop folders for the Application Pool user (IIS AppPool\DefaultAppPool if you’re using the ApplicationPoolIdentity dynamic account).
 
 https://www.ryadel.com/en/office-interop-dcom-config-windows-server-iis-word-excel-access-asp-net-c-sharp/
