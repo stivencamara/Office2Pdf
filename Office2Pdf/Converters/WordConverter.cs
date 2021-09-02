@@ -11,8 +11,8 @@ namespace Office2Pdf.Converters
         public WordConverter() :
             base(new Application())
         {
-
         }
+        
         public override void OnConvert(string sourcePath, string targetPath, bool isPdfA)
         {
             Application.Visible = false;
