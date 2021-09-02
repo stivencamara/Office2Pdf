@@ -13,7 +13,6 @@ namespace Office2Pdf.Converters
         public PowerpointConverter() :
             base(new Application())
         {
-
         }
         
         public override void OnConvert(string sourcePath, string targetPath, bool isPdfA)
@@ -53,6 +52,7 @@ namespace Office2Pdf.Converters
                     if (Application.Presentations.Count > 0)
                         presentation.Close();
                 }
+                
                 Application.Quit();
                 Application.Dispose();
             }
