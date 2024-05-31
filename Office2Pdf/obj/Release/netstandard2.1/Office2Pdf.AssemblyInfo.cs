@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© 2020")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Convert Office documents to Pdf.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.5.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.5+56236922e6faabe40ce6b89cb3041f1121d564a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Office2Pdf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Office2Pdf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.5.0")]

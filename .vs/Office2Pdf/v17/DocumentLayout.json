@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\github\\Office2Pdf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7784C4E6-1CA6-400A-8383-177620CE0034}|Office2Pdf.Tests\\Office2Pdf.Tests.csproj|e:\\github\\office2pdf\\office2pdf.tests\\wordconvertertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7784C4E6-1CA6-400A-8383-177620CE0034}|Office2Pdf.Tests\\Office2Pdf.Tests.csproj|solutionrelative:office2pdf.tests\\wordconvertertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7784C4E6-1CA6-400A-8383-177620CE0034}|Office2Pdf.Tests\\Office2Pdf.Tests.csproj|e:\\github\\office2pdf\\office2pdf.tests\\powerpointconvertertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7784C4E6-1CA6-400A-8383-177620CE0034}|Office2Pdf.Tests\\Office2Pdf.Tests.csproj|solutionrelative:office2pdf.tests\\powerpointconvertertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7784C4E6-1CA6-400A-8383-177620CE0034}|Office2Pdf.Tests\\Office2Pdf.Tests.csproj|e:\\github\\office2pdf\\office2pdf.tests\\excelconvertertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7784C4E6-1CA6-400A-8383-177620CE0034}|Office2Pdf.Tests\\Office2Pdf.Tests.csproj|solutionrelative:office2pdf.tests\\excelconvertertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08AFA2C-3F14-4D27-A2AC-E5FE9245137D}|Office2Pdf\\Office2Pdf.csproj|e:\\github\\office2pdf\\office2pdf\\office2pdf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D08AFA2C-3F14-4D27-A2AC-E5FE9245137D}|Office2Pdf\\Office2Pdf.csproj|solutionrelative:office2pdf\\office2pdf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7784C4E6-1CA6-400A-8383-177620CE0034}|Office2Pdf.Tests\\Office2Pdf.Tests.csproj|e:\\github\\office2pdf\\office2pdf.tests\\office2pdf.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7784C4E6-1CA6-400A-8383-177620CE0034}|Office2Pdf.Tests\\Office2Pdf.Tests.csproj|solutionrelative:office2pdf.tests\\office2pdf.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08AFA2C-3F14-4D27-A2AC-E5FE9245137D}|Office2Pdf\\Office2Pdf.csproj|e:\\github\\office2pdf\\office2pdf\\office2pdf.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D08AFA2C-3F14-4D27-A2AC-E5FE9245137D}|Office2Pdf\\Office2Pdf.csproj|solutionrelative:office2pdf\\office2pdf.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WordConverterTest.cs",
+              "DocumentMoniker": "E:\\github\\Office2Pdf\\Office2Pdf.Tests\\WordConverterTest.cs",
+              "RelativeDocumentMoniker": "Office2Pdf.Tests\\WordConverterTest.cs",
+              "ToolTip": "E:\\github\\Office2Pdf\\Office2Pdf.Tests\\WordConverterTest.cs",
+              "RelativeToolTip": "Office2Pdf.Tests\\WordConverterTest.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAywAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:33:14.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PowerpointConverterTest.cs",
+              "DocumentMoniker": "E:\\github\\Office2Pdf\\Office2Pdf.Tests\\PowerpointConverterTest.cs",
+              "RelativeDocumentMoniker": "Office2Pdf.Tests\\PowerpointConverterTest.cs",
+              "ToolTip": "E:\\github\\Office2Pdf\\Office2Pdf.Tests\\PowerpointConverterTest.cs",
+              "RelativeToolTip": "Office2Pdf.Tests\\PowerpointConverterTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:36:24.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Office2Pdf.Tests",
+              "DocumentMoniker": "E:\\github\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
+              "RelativeDocumentMoniker": "Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
+              "ToolTip": "E:\\github\\Office2Pdf\\Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
+              "RelativeToolTip": "Office2Pdf.Tests\\Office2Pdf.Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-31T09:27:37.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Office2Pdf",
+              "DocumentMoniker": "E:\\github\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+              "RelativeDocumentMoniker": "Office2Pdf\\Office2Pdf.csproj",
+              "ToolTip": "E:\\github\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+              "RelativeToolTip": "Office2Pdf\\Office2Pdf.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-31T09:27:08.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Office2Pdf",
+              "DocumentMoniker": "E:\\github\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+              "RelativeDocumentMoniker": "Office2Pdf\\Office2Pdf.csproj",
+              "ToolTip": "E:\\github\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+              "RelativeToolTip": "Office2Pdf\\Office2Pdf.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-31T09:26:14.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExcelConverterTest.cs",
+              "DocumentMoniker": "E:\\github\\Office2Pdf\\Office2Pdf.Tests\\ExcelConverterTest.cs",
+              "RelativeDocumentMoniker": "Office2Pdf.Tests\\ExcelConverterTest.cs",
+              "ToolTip": "E:\\github\\Office2Pdf\\Office2Pdf.Tests\\ExcelConverterTest.cs",
+              "RelativeToolTip": "Office2Pdf.Tests\\ExcelConverterTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:24:33.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

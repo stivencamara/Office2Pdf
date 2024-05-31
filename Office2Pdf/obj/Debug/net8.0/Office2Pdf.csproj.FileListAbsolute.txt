@@ -1,0 +1,13 @@
+E:\github\Office2Pdf\Office2Pdf\bin\Debug\net8.0\Office2Pdf.deps.json
+E:\github\Office2Pdf\Office2Pdf\bin\Debug\net8.0\Office2Pdf.dll
+E:\github\Office2Pdf\Office2Pdf\bin\Debug\net8.0\Office2Pdf.pdb
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\Office2Pdf.csproj.AssemblyReference.cache
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\Office2Pdf.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\Office2Pdf.AssemblyInfoInputs.cache
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\Office2Pdf.AssemblyInfo.cs
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\Office2Pdf.csproj.CoreCompileInputs.cache
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\Office2Pdf.sourcelink.json
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\Office2Pdf.dll
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\refint\Office2Pdf.dll
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\Office2Pdf.pdb
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\net8.0\ref\Office2Pdf.dll

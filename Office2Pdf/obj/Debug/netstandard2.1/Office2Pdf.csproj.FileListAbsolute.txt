@@ -23,3 +23,14 @@ C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Debug\netstandard2
 C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.dll
 C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.pdb
 C:\Users\stiven.camara\Source\Repos\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.csprojAssemblyReference.cache
+E:\github\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.deps.json
+E:\github\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.dll
+E:\github\Office2Pdf\Office2Pdf\bin\Debug\netstandard2.1\Office2Pdf.pdb
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.csproj.AssemblyReference.cache
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.AssemblyInfoInputs.cache
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.AssemblyInfo.cs
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.csproj.CoreCompileInputs.cache
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.sourcelink.json
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.dll
+E:\github\Office2Pdf\Office2Pdf\obj\Debug\netstandard2.1\Office2Pdf.pdb

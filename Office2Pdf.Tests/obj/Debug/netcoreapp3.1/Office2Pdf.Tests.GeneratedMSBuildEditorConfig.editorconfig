@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Office2Pdf.Tests
+build_property.ProjectDir = E:\github\Office2Pdf\Office2Pdf.Tests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

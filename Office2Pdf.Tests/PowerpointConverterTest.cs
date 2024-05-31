@@ -8,13 +8,15 @@ namespace Office2Pdf.Tests
     [TestClass]
     public class PowerpointConverterTest
     {
+        private string directoty = Path.Combine(Environment.CurrentDirectory, "Docs");
+
         [TestMethod]
         public void Should_Convert_Ppt()
         {
             var conveter = new DocumentConverterFactory().GetConverter(ContentType.PPT);
 
-            var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.ppt");
-            var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", "Testppt.pdf");
+            var sourcePath = Path.Combine(directoty, "Test.ppt");
+            var targetPath = Path.Combine(directoty, "Testppt.pdf");
 
             conveter.Convert(sourcePath, targetPath, false);
 
@@ -26,8 +28,8 @@ namespace Office2Pdf.Tests
         {
             var converter = new DocumentConverterFactory().GetConverter(ContentType.PPTX);
 
-            var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.pptx");
-            var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", "Testpptx.pdf");
+            var sourcePath = Path.Combine(directoty, "Test.pptx");
+            var targetPath = Path.Combine(directoty, "Testpptx.pdf");
 
             converter.Convert(sourcePath, targetPath, false);
 
@@ -42,8 +44,8 @@ namespace Office2Pdf.Tests
             {
                 var converter = new DocumentConverterFactory().GetConverter(ContentType.PPT);
 
-                var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.ppt");
-                var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", $"Testdoc_{index}.pdf");
+                var sourcePath = Path.Combine(directoty, "Test.ppt");
+                var targetPath = Path.Combine(directoty, $"Testdoc_{index}.pdf");
 
                 converter.Convert(sourcePath, targetPath, false);
 

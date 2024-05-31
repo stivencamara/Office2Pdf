@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Office2Pdf.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56236922e6faabe40ce6b89cb3041f1121d564a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Office2Pdf.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Office2Pdf.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

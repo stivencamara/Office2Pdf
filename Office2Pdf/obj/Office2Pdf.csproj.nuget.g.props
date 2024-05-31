@@ -5,20 +5,20 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\stiven.camara\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\stive\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.1</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.9.2</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+    <SourceRoot Include="C:\Users\stive\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
-  <PropertyGroup>
-    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.1' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNetOfficeFw_Core Condition=" '$(PkgNetOfficeFw_Core)' == '' ">C:\Users\stiven.camara\.nuget\packages\netofficefw.core\1.7.4.11</PkgNetOfficeFw_Core>
-    <PkgNetOfficeFw_Word Condition=" '$(PkgNetOfficeFw_Word)' == '' ">C:\Users\stiven.camara\.nuget\packages\netofficefw.word\1.7.4.11</PkgNetOfficeFw_Word>
-    <PkgNetOfficeFw_PowerPoint Condition=" '$(PkgNetOfficeFw_PowerPoint)' == '' ">C:\Users\stiven.camara\.nuget\packages\netofficefw.powerpoint\1.7.4.11</PkgNetOfficeFw_PowerPoint>
-    <PkgNetOfficeFw_Excel Condition=" '$(PkgNetOfficeFw_Excel)' == '' ">C:\Users\stiven.camara\.nuget\packages\netofficefw.excel\1.7.4.11</PkgNetOfficeFw_Excel>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net8.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNetOfficeFw_Core Condition=" '$(PkgNetOfficeFw_Core)' == '' ">C:\Users\stive\.nuget\packages\netofficefw.core\1.9.5</PkgNetOfficeFw_Core>
+    <PkgNetOfficeFw_Office Condition=" '$(PkgNetOfficeFw_Office)' == '' ">C:\Users\stive\.nuget\packages\netofficefw.office\1.9.5</PkgNetOfficeFw_Office>
+    <PkgNetOfficeFw_VBIDE Condition=" '$(PkgNetOfficeFw_VBIDE)' == '' ">C:\Users\stive\.nuget\packages\netofficefw.vbide\1.9.5</PkgNetOfficeFw_VBIDE>
+    <PkgNetOfficeFw_Word Condition=" '$(PkgNetOfficeFw_Word)' == '' ">C:\Users\stive\.nuget\packages\netofficefw.word\1.9.5</PkgNetOfficeFw_Word>
+    <PkgNetOfficeFw_PowerPoint Condition=" '$(PkgNetOfficeFw_PowerPoint)' == '' ">C:\Users\stive\.nuget\packages\netofficefw.powerpoint\1.9.5</PkgNetOfficeFw_PowerPoint>
+    <PkgNetOfficeFw_Excel Condition=" '$(PkgNetOfficeFw_Excel)' == '' ">C:\Users\stive\.nuget\packages\netofficefw.excel\1.9.5</PkgNetOfficeFw_Excel>
   </PropertyGroup>
 </Project>

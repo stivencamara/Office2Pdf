@@ -1,0 +1,180 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Office2Pdf/1.0.6": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Excel": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5",
+          "NetOfficeFw.PowerPoint": "1.9.5",
+          "NetOfficeFw.VBIDE": "1.9.5",
+          "NetOfficeFw.Word": "1.9.5",
+          "stdole": "17.10.40170"
+        },
+        "runtime": {
+          "Office2Pdf.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Interop/17.10.40170": {
+        "runtime": {
+          "lib/net8.0/Microsoft.VisualStudio.Interop.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.10.40152.10824"
+          }
+        }
+      },
+      "NetOfficeFw.Core/1.9.5": {
+        "runtime": {
+          "lib/net462/NetOffice.dll": {
+            "assemblyVersion": "1.9.5.0",
+            "fileVersion": "1.9.5.0"
+          }
+        }
+      },
+      "NetOfficeFw.Excel/1.9.5": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5",
+          "NetOfficeFw.VBIDE": "1.9.5"
+        },
+        "runtime": {
+          "lib/net462/ExcelApi.dll": {
+            "assemblyVersion": "1.9.5.0",
+            "fileVersion": "1.9.5.0"
+          }
+        }
+      },
+      "NetOfficeFw.Office/1.9.5": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "stdole": "17.10.40170"
+        },
+        "runtime": {
+          "lib/net462/OfficeApi.dll": {
+            "assemblyVersion": "1.9.5.0",
+            "fileVersion": "1.9.5.0"
+          }
+        }
+      },
+      "NetOfficeFw.PowerPoint/1.9.5": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5",
+          "NetOfficeFw.VBIDE": "1.9.5",
+          "stdole": "17.10.40170"
+        },
+        "runtime": {
+          "lib/net462/PowerPointApi.dll": {
+            "assemblyVersion": "1.9.5.0",
+            "fileVersion": "1.9.5.0"
+          }
+        }
+      },
+      "NetOfficeFw.VBIDE/1.9.5": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5"
+        },
+        "runtime": {
+          "lib/net462/VBIDEApi.dll": {
+            "assemblyVersion": "1.9.5.0",
+            "fileVersion": "1.9.5.0"
+          }
+        }
+      },
+      "NetOfficeFw.Word/1.9.5": {
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5",
+          "NetOfficeFw.VBIDE": "1.9.5",
+          "stdole": "17.10.40170"
+        },
+        "runtime": {
+          "lib/net462/WordApi.dll": {
+            "assemblyVersion": "1.9.5.0",
+            "fileVersion": "1.9.5.0"
+          }
+        }
+      },
+      "stdole/17.10.40170": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Interop": "17.10.40170"
+        },
+        "runtime": {
+          "lib/net8.0/stdole.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.10.40170.36112"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Office2Pdf/1.0.6": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Interop/17.10.40170": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sHqM5VIAbBn5I7soTAjvNFL1c36Dsp9sKN2x2tj9Y7gxVami/o5Z+0uTMUOzHmcIOrSGeU9ldQ+OUKLUCZic8Q==",
+      "path": "microsoft.visualstudio.interop/17.10.40170",
+      "hashPath": "microsoft.visualstudio.interop.17.10.40170.nupkg.sha512"
+    },
+    "NetOfficeFw.Core/1.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JBL3jhfi3XULLDouyclbQeA508eC0CmAMSE1/GoLRmE/uFQeZ+0uzSOL4XGK/b5oJUKRtBnQfjYbxu4Ug3spXw==",
+      "path": "netofficefw.core/1.9.5",
+      "hashPath": "netofficefw.core.1.9.5.nupkg.sha512"
+    },
+    "NetOfficeFw.Excel/1.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vq4VKaWM1IbX1hZEcCzbxK4E7Xyfi1gjTCmwTAYk/OmRcN0IlLvfRu6CqQCTClGzfjDZ7GsRNF61dm7WHzKL3A==",
+      "path": "netofficefw.excel/1.9.5",
+      "hashPath": "netofficefw.excel.1.9.5.nupkg.sha512"
+    },
+    "NetOfficeFw.Office/1.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Nk+CFBaYIaBePkCH4L5j5zKGbnWheFoD1D5ZVAZUdSYI6Asiie6TcEBfHntpqqjBUrEhpbALErRi44INw9scQ==",
+      "path": "netofficefw.office/1.9.5",
+      "hashPath": "netofficefw.office.1.9.5.nupkg.sha512"
+    },
+    "NetOfficeFw.PowerPoint/1.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d+ZmO4IYx8eaqgDi5moWZ35y2dWwoG+WyWqSYK8IpUSkuj/scMghEGZxeZnEyhQJXU7RXcF2JVoo5vaO2vULBA==",
+      "path": "netofficefw.powerpoint/1.9.5",
+      "hashPath": "netofficefw.powerpoint.1.9.5.nupkg.sha512"
+    },
+    "NetOfficeFw.VBIDE/1.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PKDtaViZQU+5gdGnRasF6+4naKRXFKdIJNXPGMZKJgW4wbbxag2Z0sWOZdVZoUAJtyVBQAxiCFBi1NlT0YGzPA==",
+      "path": "netofficefw.vbide/1.9.5",
+      "hashPath": "netofficefw.vbide.1.9.5.nupkg.sha512"
+    },
+    "NetOfficeFw.Word/1.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NEESTRbjdj6ZbZPcjzt3VjSPDCvrl8/QXuz6N9NrLR9wofFs5lQc+TvTDUkoLp1lFoEfAM+wikrWklbZO0Zlww==",
+      "path": "netofficefw.word/1.9.5",
+      "hashPath": "netofficefw.word.1.9.5.nupkg.sha512"
+    },
+    "stdole/17.10.40170": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ArtUfeCwc7pFWHjNAomEqy1wA86dhiBnxTg+yiiXzd8WxI3tuP/Y2xWCFUKhz3ES0VV+xJHUPfvfA7LONb42iQ==",
+      "path": "stdole/17.10.40170",
+      "hashPath": "stdole.17.10.40170.nupkg.sha512"
+    }
+  }
+}

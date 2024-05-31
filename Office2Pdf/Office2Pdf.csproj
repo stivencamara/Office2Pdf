@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <Authors>Stiven Fabiano da Câmara</Authors>
     <Company>BABEL Information Systems</Company>
     <Copyright>© 2020</Copyright>
@@ -10,16 +10,19 @@
     <PackageLicenseExpression></PackageLicenseExpression>
     <Description>Convert Office documents to Pdf.</Description>
     <PackageTags>office, convert, export, saveas, pdf, doc, docx, xls, xlsx, ppt, pptx</PackageTags>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <RepositoryUrl>https://github.com/stivencamara/Office2Pdf</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NetOfficeFw.Core" Version="1.7.4.11" />
-    <PackageReference Include="NetOfficeFw.Excel" Version="1.7.4.11" />
-    <PackageReference Include="NetOfficeFw.PowerPoint" Version="1.7.4.11" />
-    <PackageReference Include="NetOfficeFw.Word" Version="1.7.4.11" />
+    <PackageReference Include="NetOfficeFw.Core" Version="1.9.5" />
+    <PackageReference Include="NetOfficeFw.Excel" Version="1.9.5" />
+    <PackageReference Include="NetOfficeFw.Office" Version="1.9.5" />
+    <PackageReference Include="NetOfficeFw.PowerPoint" Version="1.9.5" />
+    <PackageReference Include="NetOfficeFw.VBIDE" Version="1.9.5" />
+    <PackageReference Include="NetOfficeFw.Word" Version="1.9.5" />
+    <PackageReference Include="stdole" Version="17.10.40170" />
   </ItemGroup>
 
 </Project>

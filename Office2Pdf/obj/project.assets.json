@@ -1,166 +1,338 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {
-      "NetOfficeFw.Core/1.7.4.11": {
+    "net8.0": {
+      "Microsoft.VisualStudio.Interop/17.10.40170": {
         "type": "package",
         "compile": {
-          "lib/net40/NetOffice.dll": {},
-          "lib/net40/OfficeApi.dll": {},
-          "lib/net40/VBIDEApi.dll": {}
+          "lib/net8.0/Microsoft.VisualStudio.Interop.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/NetOffice.dll": {},
-          "lib/net40/OfficeApi.dll": {},
-          "lib/net40/VBIDEApi.dll": {}
+          "lib/net8.0/Microsoft.VisualStudio.Interop.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "NetOfficeFw.Excel/1.7.4.11": {
+      "NetOfficeFw.Core/1.9.5": {
         "type": "package",
-        "dependencies": {
-          "NetOfficeFw.Core": "[1.7.4.11]"
-        },
         "compile": {
-          "lib/net40/ExcelApi.dll": {}
+          "lib/net462/NetOffice.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/ExcelApi.dll": {}
+          "lib/net462/NetOffice.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "NetOfficeFw.PowerPoint/1.7.4.11": {
+      "NetOfficeFw.Excel/1.9.5": {
         "type": "package",
         "dependencies": {
-          "NetOfficeFw.Core": "[1.7.4.11]"
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5",
+          "NetOfficeFw.VBIDE": "1.9.5"
         },
         "compile": {
-          "lib/net40/PowerPointApi.dll": {}
+          "lib/net462/ExcelApi.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/PowerPointApi.dll": {}
+          "lib/net462/ExcelApi.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "NetOfficeFw.Word/1.7.4.11": {
+      "NetOfficeFw.Office/1.9.5": {
         "type": "package",
         "dependencies": {
-          "NetOfficeFw.Core": "[1.7.4.11]"
+          "NetOfficeFw.Core": "1.9.5",
+          "stdole": "7.0.3300"
         },
         "compile": {
-          "lib/net40/WordApi.dll": {}
+          "lib/net462/OfficeApi.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/WordApi.dll": {}
+          "lib/net462/OfficeApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.PowerPoint/1.9.5": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5",
+          "NetOfficeFw.VBIDE": "1.9.5",
+          "stdole": "7.0.3300"
+        },
+        "compile": {
+          "lib/net462/PowerPointApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/PowerPointApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.VBIDE/1.9.5": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5"
+        },
+        "compile": {
+          "lib/net462/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/VBIDEApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetOfficeFw.Word/1.9.5": {
+        "type": "package",
+        "dependencies": {
+          "NetOfficeFw.Core": "1.9.5",
+          "NetOfficeFw.Office": "1.9.5",
+          "NetOfficeFw.VBIDE": "1.9.5",
+          "stdole": "7.0.3300"
+        },
+        "compile": {
+          "lib/net462/WordApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/WordApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "stdole/17.10.40170": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Interop": "17.10.40170"
+        },
+        "compile": {
+          "lib/net8.0/stdole.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/stdole.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
   },
   "libraries": {
-    "NetOfficeFw.Core/1.7.4.11": {
-      "sha512": "KkNJLZxpj0xoKESsRW6PO1+gJQGuPteZ4QOvT+Izz4S5r8I+80pv8wgx5cr62QqRISVlHDUCw4UsP14hU2ihcA==",
+    "Microsoft.VisualStudio.Interop/17.10.40170": {
+      "sha512": "sHqM5VIAbBn5I7soTAjvNFL1c36Dsp9sKN2x2tj9Y7gxVami/o5Z+0uTMUOzHmcIOrSGeU9ldQ+OUKLUCZic8Q==",
       "type": "package",
-      "path": "netofficefw.core/1.7.4.11",
+      "path": "microsoft.visualstudio.interop/17.10.40170",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net20/Microsoft.VisualStudio.Interop.dll",
+        "lib/net20/Microsoft.VisualStudio.Interop.xml",
+        "lib/net472/Microsoft.VisualStudio.Interop.dll",
+        "lib/net472/Microsoft.VisualStudio.Interop.xml",
+        "lib/net8.0/Microsoft.VisualStudio.Interop.dll",
+        "lib/net8.0/Microsoft.VisualStudio.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Interop.xml",
+        "microsoft.visualstudio.interop.17.10.40170.nupkg.sha512",
+        "microsoft.visualstudio.interop.nuspec"
+      ]
+    },
+    "NetOfficeFw.Core/1.9.5": {
+      "sha512": "JBL3jhfi3XULLDouyclbQeA508eC0CmAMSE1/GoLRmE/uFQeZ+0uzSOL4XGK/b5oJUKRtBnQfjYbxu4Ug3spXw==",
+      "type": "package",
+      "path": "netofficefw.core/1.9.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/NetOffice.dll",
-        "lib/net40/NetOffice.xml",
-        "lib/net40/OfficeApi.dll",
-        "lib/net40/OfficeApi.xml",
-        "lib/net40/VBIDEApi.dll",
-        "lib/net40/VBIDEApi.xml",
-        "netofficefw.core.1.7.4.11.nupkg.sha512",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/NetOffice.dll",
+        "lib/net462/NetOffice.xml",
+        "netofficefw.core.1.9.5.nupkg.sha512",
         "netofficefw.core.nuspec",
         "tools/install.ps1"
       ]
     },
-    "NetOfficeFw.Excel/1.7.4.11": {
-      "sha512": "sqKlRRHEPS1DIqY3ZZTiKNaHHlFGVCzuNaeel9wLZGjR/C0C9BqHj7M3V/icXUG49iEzwPb1fGYJUtn3H4J00w==",
+    "NetOfficeFw.Excel/1.9.5": {
+      "sha512": "Vq4VKaWM1IbX1hZEcCzbxK4E7Xyfi1gjTCmwTAYk/OmRcN0IlLvfRu6CqQCTClGzfjDZ7GsRNF61dm7WHzKL3A==",
       "type": "package",
-      "path": "netofficefw.excel/1.7.4.11",
+      "path": "netofficefw.excel/1.9.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/ExcelApi.dll",
-        "lib/net40/ExcelApi.xml",
-        "netofficefw.excel.1.7.4.11.nupkg.sha512",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/ExcelApi.dll",
+        "lib/net462/ExcelApi.xml",
+        "netofficefw.excel.1.9.5.nupkg.sha512",
         "netofficefw.excel.nuspec",
         "tools/install.ps1"
       ]
     },
-    "NetOfficeFw.PowerPoint/1.7.4.11": {
-      "sha512": "Byb+WmXc5U0a/92oJbzfGKTCrPl25AUiMX5+cOFAjt9ip1OHhVqfW5LfDxCGsgrTUEXmBloWAUonvacyhtvFbw==",
+    "NetOfficeFw.Office/1.9.5": {
+      "sha512": "/Nk+CFBaYIaBePkCH4L5j5zKGbnWheFoD1D5ZVAZUdSYI6Asiie6TcEBfHntpqqjBUrEhpbALErRi44INw9scQ==",
       "type": "package",
-      "path": "netofficefw.powerpoint/1.7.4.11",
+      "path": "netofficefw.office/1.9.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/PowerPointApi.dll",
-        "lib/net40/PowerPointApi.xml",
-        "netofficefw.powerpoint.1.7.4.11.nupkg.sha512",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/OfficeApi.dll",
+        "lib/net462/OfficeApi.xml",
+        "netofficefw.office.1.9.5.nupkg.sha512",
+        "netofficefw.office.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOfficeFw.PowerPoint/1.9.5": {
+      "sha512": "d+ZmO4IYx8eaqgDi5moWZ35y2dWwoG+WyWqSYK8IpUSkuj/scMghEGZxeZnEyhQJXU7RXcF2JVoo5vaO2vULBA==",
+      "type": "package",
+      "path": "netofficefw.powerpoint/1.9.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/PowerPointApi.dll",
+        "lib/net462/PowerPointApi.xml",
+        "netofficefw.powerpoint.1.9.5.nupkg.sha512",
         "netofficefw.powerpoint.nuspec",
         "tools/install.ps1"
       ]
     },
-    "NetOfficeFw.Word/1.7.4.11": {
-      "sha512": "z53dBHSR1/0wK1wCL2AW4qxHN20s1YBm5d+RLpZojLr61IkB1lpkUnP5jFx+HstAZoGheZxfhvdrWd/LB5hKRQ==",
+    "NetOfficeFw.VBIDE/1.9.5": {
+      "sha512": "PKDtaViZQU+5gdGnRasF6+4naKRXFKdIJNXPGMZKJgW4wbbxag2Z0sWOZdVZoUAJtyVBQAxiCFBi1NlT0YGzPA==",
       "type": "package",
-      "path": "netofficefw.word/1.7.4.11",
+      "path": "netofficefw.vbide/1.9.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net40/WordApi.dll",
-        "lib/net40/WordApi.xml",
-        "netofficefw.word.1.7.4.11.nupkg.sha512",
+        "LICENSE.txt",
+        "icon.png",
+        "lib/net462/VBIDEApi.dll",
+        "lib/net462/VBIDEApi.xml",
+        "netofficefw.vbide.1.9.5.nupkg.sha512",
+        "netofficefw.vbide.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOfficeFw.Word/1.9.5": {
+      "sha512": "NEESTRbjdj6ZbZPcjzt3VjSPDCvrl8/QXuz6N9NrLR9wofFs5lQc+TvTDUkoLp1lFoEfAM+wikrWklbZO0Zlww==",
+      "type": "package",
+      "path": "netofficefw.word/1.9.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net462/WordApi.dll",
+        "lib/net462/WordApi.xml",
+        "netofficefw.word.1.9.5.nupkg.sha512",
         "netofficefw.word.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "stdole/17.10.40170": {
+      "sha512": "ArtUfeCwc7pFWHjNAomEqy1wA86dhiBnxTg+yiiXzd8WxI3tuP/Y2xWCFUKhz3ES0VV+xJHUPfvfA7LONb42iQ==",
+      "type": "package",
+      "path": "stdole/17.10.40170",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net20/stdole.dll",
+        "lib/net20/stdole.xml",
+        "lib/net45/stdole.dll",
+        "lib/net45/stdole.xml",
+        "lib/net472/stdole.dll",
+        "lib/net472/stdole.xml",
+        "lib/net8.0/stdole.dll",
+        "lib/net8.0/stdole.xml",
+        "lib/netstandard2.0/stdole.dll",
+        "lib/netstandard2.0/stdole.xml",
+        "stdole.17.10.40170.nupkg.sha512",
+        "stdole.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": [
-      "NetOfficeFw.Core >= 1.7.4.11",
-      "NetOfficeFw.Excel >= 1.7.4.11",
-      "NetOfficeFw.PowerPoint >= 1.7.4.11",
-      "NetOfficeFw.Word >= 1.7.4.11"
+    "net8.0": [
+      "NetOfficeFw.Core >= 1.9.5",
+      "NetOfficeFw.Excel >= 1.9.5",
+      "NetOfficeFw.Office >= 1.9.5",
+      "NetOfficeFw.PowerPoint >= 1.9.5",
+      "NetOfficeFw.VBIDE >= 1.9.5",
+      "NetOfficeFw.Word >= 1.9.5",
+      "stdole >= 17.10.40170"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stiven.camara\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\stive\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+      "projectUniqueName": "E:\\github\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
       "projectName": "Office2Pdf",
-      "projectPath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
-      "packagesPath": "C:\\Users\\stiven.camara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stiven.camara\\Source\\Repos\\Office2Pdf\\Office2Pdf\\obj\\",
+      "projectPath": "E:\\github\\Office2Pdf\\Office2Pdf\\Office2Pdf.csproj",
+      "packagesPath": "C:\\Users\\stive\\.nuget\\packages\\",
+      "outputPath": "E:\\github\\Office2Pdf\\Office2Pdf\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\stiven.camara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\stive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netstandard2.1"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -168,27 +340,44 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "netstandard2.1": {
-        "targetAlias": "netstandard2.1",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "NetOfficeFw.Core": {
             "target": "Package",
-            "version": "[1.7.4.11, )"
+            "version": "[1.9.5, )"
           },
           "NetOfficeFw.Excel": {
             "target": "Package",
-            "version": "[1.7.4.11, )"
+            "version": "[1.9.5, )"
+          },
+          "NetOfficeFw.Office": {
+            "target": "Package",
+            "version": "[1.9.5, )"
           },
           "NetOfficeFw.PowerPoint": {
             "target": "Package",
-            "version": "[1.7.4.11, )"
+            "version": "[1.9.5, )"
+          },
+          "NetOfficeFw.VBIDE": {
+            "target": "Package",
+            "version": "[1.9.5, )"
           },
           "NetOfficeFw.Word": {
             "target": "Package",
-            "version": "[1.7.4.11, )"
+            "version": "[1.9.5, )"
+          },
+          "stdole": {
+            "target": "Package",
+            "version": "[17.10.40170, )"
           }
         },
         "imports": [
@@ -197,16 +386,17 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "NETStandard.Library": {
+          "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -215,40 +405,60 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NetOfficeFw.Core 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'NetOfficeFw.Core 1.9.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "NetOfficeFw.Core",
       "targetGraphs": [
-        ".NETStandard,Version=v2.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NetOfficeFw.Excel 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'NetOfficeFw.Excel 1.9.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "NetOfficeFw.Excel",
       "targetGraphs": [
-        ".NETStandard,Version=v2.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NetOfficeFw.PowerPoint 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'NetOfficeFw.Office 1.9.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOfficeFw.Office",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOfficeFw.PowerPoint 1.9.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "NetOfficeFw.PowerPoint",
       "targetGraphs": [
-        ".NETStandard,Version=v2.1"
+        "net8.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NetOfficeFw.Word 1.7.4.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'NetOfficeFw.VBIDE 1.9.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOfficeFw.VBIDE",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOfficeFw.Word 1.9.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "NetOfficeFw.Word",
       "targetGraphs": [
-        ".NETStandard,Version=v2.1"
+        "net8.0"
       ]
     }
   ]

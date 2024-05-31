@@ -8,13 +8,15 @@ namespace Office2Pdf.Tests
     [TestClass]
     public class ExcelConverterTest
     {
+        private string directoty = Path.Combine(Environment.CurrentDirectory, "Docs");
+
         [TestMethod]
         public void Should_Convert_Xls()
         {
             var conveter = new DocumentConverterFactory().GetConverter(ContentType.XLS);
 
-            var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.xls");
-            var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", "Testxls.pdf");
+            var sourcePath = Path.Combine(directoty, "Test.xls");
+            var targetPath = Path.Combine(directoty, "Testxls.pdf");
 
             conveter.Convert(sourcePath, targetPath, false);
 
@@ -26,8 +28,8 @@ namespace Office2Pdf.Tests
         {
             var conveter = new DocumentConverterFactory().GetConverter(ContentType.XLSX);
 
-            var sourcePath = Path.Combine(@"c:\Test.xslx");
-            var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", "Testxslx.pdf");
+            var sourcePath = Path.Combine(directoty, "Test.xlsx");
+            var targetPath = Path.Combine(directoty, "Testxslx.pdf");
 
             conveter.Convert(sourcePath, targetPath, false);
 
@@ -41,8 +43,8 @@ namespace Office2Pdf.Tests
             while (index < 10) {
                 var converter = new DocumentConverterFactory().GetConverter(ContentType.XLS);
 
-                var sourcePath = Path.Combine(Environment.CurrentDirectory, "docs", "Test.xls");
-                var targetPath = Path.Combine(Environment.CurrentDirectory, "docs", $"Testxls_{index}.pdf");
+                var sourcePath = Path.Combine(directoty, "Test.xls");
+                var targetPath = Path.Combine(directoty, $"Testxls_{index}.pdf");
 
                 converter.Convert(sourcePath, targetPath, false);
 
